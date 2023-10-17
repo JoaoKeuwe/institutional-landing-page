@@ -1,15 +1,18 @@
+import logo from "../../assets/images/logo.svg";
+import './style.css';
 
 const NavBar = () => {
     return (
-        <>
-            <ul style={{ display: 'flex' }}>
-                <li>teste</li>
-                <li>teste</li>
-                <li>teste</li>
-                <li>teste</li>
+        <header className="navbar-container">
+            <img src={logo} alt="" />
+            <ul className="navbar-content" >
+                <li>About</li>
+                <li>Work</li>
+                <li>Cases</li>
+                <li>Contact</li>
             </ul>
-        </>
-    )
-}
+        </header>
+    );
+};
 
-export default NavBar
+export default NavBar;

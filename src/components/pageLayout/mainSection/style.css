@@ -1,0 +1,56 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10rem;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2rem;
+}
+
+.main-container h1,
+.main-container p,
+.main-container button {
+    color: var(--white, #FFF);
+    font-family: Space Grotesk;
+}
+
+.main-container h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 135%;
+    margin: 0;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.main-container p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 135%;
+    margin-bottom: 1rem;
+}
+
+.main-container button {
+    border-radius: 50px;
+    background: #FFF;
+    color: rgb(3, 56, 113);
+    width: 255px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    height: 52.411px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-image {
+    width: 600px;
+}
