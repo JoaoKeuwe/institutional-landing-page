@@ -7,6 +7,8 @@ import FirstProfile from "./components/pageLayout/firstProfile";
 import JobPixel from "./components/pageLayout/jobpixel";
 import SecondProfile from "./components/pageLayout/secondProfile";
 import Descola from "./components/pageLayout/descola";
+import ThirdProfile from "./components/pageLayout/thirdProfile";
+import Specialties from "./components/pageLayout/specialties";
 function App() {
   const divStyle = {
     background: "linear-gradient(288deg, #0038a7 1.5%, #004ba0 91.6%)",
@@ -25,6 +27,8 @@ function App() {
       <JobPixel />
       <SecondProfile />
       <Descola />
+      <ThirdProfile />
+      <Specialties />
     </>
   );
 }
