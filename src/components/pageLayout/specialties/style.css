@@ -2,20 +2,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-top: 1px solid black;
     background-image: radial-gradient(circle 993px at 0.5% 50.5%, rgba(137, 171, 245, 0.37) 0%, rgba(245, 247, 252, 1) 100.2%);
 }
 
 .container-speacialties p {
     font-size: 32px;
-    margin: 2rem 0 3rem 0;
+    display: flex;
+    margin: 3rem 0 3rem 0;
     width: 50%;
     font-family: 'Space Grotesk', sans-serif;
     text-align: center;
+    justify-content: center;
 }
 
 .container-speacialties h2 {
-    font-size: 32px;
+    font-size: 40px;
     margin-top: 2rem;
     font-family: 'Space Grotesk', sans-serif;
 }
