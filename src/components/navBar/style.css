@@ -23,3 +23,9 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+@media (max-width: 968px) {
+    .navbar-container {
+        display: none;
+    }
+}
+
