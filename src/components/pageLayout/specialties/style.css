@@ -34,3 +34,16 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width: 1450px) {
+    .container-images {
+        width: 75%;
+        flex-wrap: wrap;
+    }
+
+    .container-speacialties p {
+        font-size: 24px
+    }
+
+    ;
+}

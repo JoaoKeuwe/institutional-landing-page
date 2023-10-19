@@ -28,9 +28,20 @@
 .content {
     color: white;
     font-size: 30px;
-    
+
 }
 
 .imageCompany {
     width: 750px;
+}
+
+@media (max-width: 1400px) {
+    .imageCompany {
+        width: 550px;
+    }
+
+
+    .div-main {
+        align-items: end;
+    }
 }

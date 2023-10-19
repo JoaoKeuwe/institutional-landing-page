@@ -54,3 +54,25 @@
 .main-image {
     width: 600px;
 }
+
+/* ------------------ RESPONSIVO -------------------  */
+
+@media (max-width: 1450px) {
+    .main-container {
+        padding: 4rem;
+    }
+
+    .main-container h1 {
+        font-size: 40px;
+    }
+
+    .main-content p {
+        font-size: 22px;
+    }
+
+    .main-image {
+        width: 450px;
+    }
+
+
+}

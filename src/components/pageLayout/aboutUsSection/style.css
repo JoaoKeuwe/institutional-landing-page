@@ -27,7 +27,7 @@
     background: linear-gradient(288deg, #00194b 1.5%, #1682ee 91.6%);
     display: flex;
     align-items: center;
-    padding: 3rem 10rem ;
+    padding: 3rem 10rem;
     justify-content: center;
 }
 
@@ -40,4 +40,16 @@
 
 .aboutUs-footer span {
     font-weight: 500;
+}
+
+@media (max-width: 1450px) {
+
+
+    .aboutUs-content p {
+        font-size: 30px;
+    }
+
+    .aboutUs-footer p {
+        font-size: 25px;
+    }
 }
