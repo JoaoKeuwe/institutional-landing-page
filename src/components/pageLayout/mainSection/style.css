@@ -102,7 +102,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1rem 1rem;
+        padding: 2rem 1rem 3rem 1rem;
+        height: auto;
     }
 
     .text-content {
