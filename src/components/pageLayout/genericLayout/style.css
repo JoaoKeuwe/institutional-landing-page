@@ -63,8 +63,10 @@
         padding: 7px;
         font-size: 15px;
     }
+
     .image {
-        width: 310px
+        width: 100%;
+        margin: 2rem auto;
     }
 
     .div-main {
