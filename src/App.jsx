@@ -2,7 +2,7 @@ import "./App.css";
 import MainPage from "./components/pageLayout/mainSection/index";
 import NavBar from "./components/navBar";
 import AboutUs from "./components/pageLayout/aboutUsSection";
-// import VendooPage from "./components/pageLayout/vendooPage";
+import VendooPage from "./components/pageLayout/vendooPage";
 // import FirstProfile from "./components/pageLayout/firstProfile";
 // import JobPixel from "./components/pageLayout/jobpixel";
 // import SecondProfile from "./components/pageLayout/secondProfile";
@@ -23,14 +23,14 @@ function App() {
         <MainPage />
       </div>
       <AboutUs />
-      {/* <VendooPage />
-      <FirstProfile />
-      <JobPixel />
-      <SecondProfile />
-      <Descola />
-      <ThirdProfile />
-      <Specialties />
-      <Form /> */}
+      <VendooPage />
+      {/* <FirstProfile />
+       <JobPixel />
+       <SecondProfile />
+       <Descola />
+       <ThirdProfile />
+       <Specialties />
+       <Form />  */}
     </>
   );
 }
