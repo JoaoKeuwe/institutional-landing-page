@@ -1,7 +1,7 @@
 import "./App.css";
 import MainPage from "./components/pageLayout/mainSection/index";
 import NavBar from "./components/navBar";
-// import AboutUs from "./components/pageLayout/aboutUsSection";
+import AboutUs from "./components/pageLayout/aboutUsSection";
 // import VendooPage from "./components/pageLayout/vendooPage";
 // import FirstProfile from "./components/pageLayout/firstProfile";
 // import JobPixel from "./components/pageLayout/jobpixel";
@@ -22,8 +22,8 @@ function App() {
         <NavBar />
         <MainPage />
       </div>
-      {/* <AboutUs />
-      <VendooPage />
+      <AboutUs />
+      {/* <VendooPage />
       <FirstProfile />
       <JobPixel />
       <SecondProfile />

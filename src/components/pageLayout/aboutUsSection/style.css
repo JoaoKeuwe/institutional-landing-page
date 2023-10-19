@@ -53,3 +53,29 @@
         font-size: 22px;
     }
 }
+
+@media (max-width: 950px) {
+    .aboutUs-container {
+        height: auto;
+    }
+
+    .aboutUs-content {
+        width: auto;
+        padding: 10rem 2rem;
+    }
+
+    .aboutUs-content p {
+        font-size: 25px;
+
+    }
+
+    .aboutUs-footer p {
+        font-size: 17px;
+        line-height: normal;
+
+    }
+
+    .aboutUs-footer {
+        padding: 3rem 2rem;
+    }
+}
