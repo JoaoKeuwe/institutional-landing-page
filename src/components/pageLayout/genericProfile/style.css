@@ -48,7 +48,7 @@
     }
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 950px) {
 
     .container {
         padding: 4rem 1rem;
@@ -57,6 +57,10 @@
     .description {
         font-size: 21px;
         width: auto;
+    }
+
+    .job {
+        text-align: center;
     }
 
     .cta {
