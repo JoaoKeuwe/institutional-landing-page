@@ -38,12 +38,12 @@
 @media (max-width: 1450px) {
 
 
-    .description  {
+    .description {
         font-size: 25px;
     }
 
-   .cta {
-       width: 202px;
-       margin: 2rem;
-   }
+    .cta {
+        width: 202px;
+        margin: 2rem;
+    }
 }
