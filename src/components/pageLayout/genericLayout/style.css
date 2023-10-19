@@ -62,6 +62,7 @@
     .tech-list li {
         padding: 7px;
         font-size: 15px;
+        justify-content: center;
     }
 
     .image {
