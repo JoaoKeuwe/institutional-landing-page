@@ -3,11 +3,11 @@ import MainPage from "./components/pageLayout/mainSection/index";
 import NavBar from "./components/navBar";
 import AboutUs from "./components/pageLayout/aboutUsSection";
 import VendooPage from "./components/pageLayout/vendooPage";
-// import FirstProfile from "./components/pageLayout/firstProfile";
+import FirstProfile from "./components/pageLayout/firstProfile";
 import JobPixel from "./components/pageLayout/jobpixel";
-// import SecondProfile from "./components/pageLayout/secondProfile";
+import SecondProfile from "./components/pageLayout/secondProfile";
 import Descola from "./components/pageLayout/descola";
-// import ThirdProfile from "./components/pageLayout/thirdProfile";
+import ThirdProfile from "./components/pageLayout/thirdProfile";
 // import Specialties from "./components/pageLayout/specialties";
 // import Form from "./components/pageLayout/forms";
 function App() {
@@ -24,11 +24,11 @@ function App() {
       </div>
       <AboutUs />
       <VendooPage />
-       {/* <FirstProfile /> */}
+       <FirstProfile />
        <JobPixel />
-       {/* <SecondProfile /> */}
+       <SecondProfile />
        <Descola />
-       {/* <ThirdProfile /> */}
+       <ThirdProfile />
        {/* <Specialties /> */}
        {/* <Form />  */}
     </>

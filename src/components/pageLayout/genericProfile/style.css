@@ -47,3 +47,20 @@
         margin: 2rem;
     }
 }
+
+@media (max-width: 1450px) {
+
+    .container {
+        padding: 4rem 1rem;
+    }
+
+    .description {
+        font-size: 21px;
+        width: auto;
+    }
+
+    .cta {
+        width: 160px;
+        margin: 2rem;
+    }
+}
