@@ -13,7 +13,7 @@ import Form from "./components/pageLayout/forms";
 function App() {
   const divStyle = {
     background: "linear-gradient(288deg, #0038a7 1.5%, #004ba0 91.6%)",
-    height: "90vh",
+    height: "auto",
   };
 
   return (
