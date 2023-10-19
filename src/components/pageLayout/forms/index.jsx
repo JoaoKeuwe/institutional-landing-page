@@ -10,8 +10,9 @@ const Form = () => {
                     <h2>Let’s talk! </h2>
                     <p>
                         Fill out the form or send <br />  us an email, so we can see <br /> how we can   help <br />
-                        you.<br /> <br />  You can also schedule a <br /> meeting with Fernando!
+                        you.<br /> <br /> <span className="span" > You can also schedule a <br /> meeting with Fernando! </span>
                     </p>
+                    <p className="email">hi@nextly.team</p>
                     <button className="button-content">Schedule a meeting</button>
                 </div>
 
@@ -22,8 +23,12 @@ const Form = () => {
                     <input className="input-idea" type="text" placeholder="Tell us a bit of your idea" />
                     <button className="button-send">Send</button>
                 </div>
+                <hr />
             </div>
             <div className="form-footer">
+                <div className="image-footer-mobile">
+                    <img src={logo} alt="" />
+                </div>
                 <div className="location">
                     <p>Brazil</p>
                     <p>Av. Engenheiro Luís Carlos </p>
@@ -47,7 +52,7 @@ const Form = () => {
                     <p>+123 456 789</p>
                 </div>
 
-                <div>
+                <div className="image-footer-desktop">
                     <img src={logo} alt="" />
                 </div>
             </div>

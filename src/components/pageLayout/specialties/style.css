@@ -47,3 +47,22 @@
 
     ;
 }
+
+@media (max-width: 950px) {
+    .container-images {
+        width: 100%;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-speacialties p {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .container-speacialties  {
+        padding: 2rem 1rem;
+    }
+
+    ;
+}

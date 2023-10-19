@@ -23,10 +23,8 @@
 
 .button-content {
   border-radius: 50px;
-  background: var(
-    --blue-gradient,
-    linear-gradient(273deg, #003166 0%, #007aff 100%)
-  );
+  background: var(--blue-gradient,
+      linear-gradient(273deg, #003166 0%, #007aff 100%));
   width: 100%;
   height: 40px;
   color: white;
@@ -58,11 +56,9 @@
 .button-send {
   border-radius: 50px;
   border: none;
-  background-image: radial-gradient(
-    circle 993px at 0.5% 50.5%,
-    rgba(148, 163, 197, 0.549) 0%,
-    rgb(0, 0, 0) 100.2%
-  );
+  background-image: radial-gradient(circle 993px at 0.5% 50.5%,
+      rgba(148, 163, 197, 0.549) 0%,
+      rgb(0, 0, 0) 100.2%);
   height: 40px;
   color: white;
   font-size: 18px;
@@ -71,11 +67,9 @@
 
 .form-footer {
   display: flex;
-  background-image: radial-gradient(
-    circle 993px at 0.5% 50.5%,
-    rgba(0, 0, 0, 0.846) 0%,
-    rgba(17, 17, 17, 0.911) 100.2%
-  );
+  background-image: radial-gradient(circle 993px at 0.5% 50.5%,
+      rgba(0, 0, 0, 0.846) 0%,
+      rgba(17, 17, 17, 0.911) 100.2%);
   padding: 2rem 3rem;
   justify-content: space-between;
   align-items: center;
@@ -99,4 +93,77 @@
   color: white;
   align-items: center;
   justify-content: center;
+}
+
+.span {
+  display: block;
+}
+
+.email {
+  display: none;
+}
+
+hr {
+  display: none;
+}
+
+.image-footer-mobile {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .container-form {
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-form p {
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .input {
+    width: 270px;
+  }
+
+  .forms {
+    gap: 20px;
+    margin-top: 3rem;
+  }
+
+  .span {
+    display: none;
+  }
+
+  .email {
+    display: block;
+  }
+
+  hr {
+    width: 50%;
+    margin: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.401);
+    display: block;
+    border-radius: 10px;
+  }
+
+  .form-footer {
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .location {
+    text-align: center;
+  }
+
+  .image-footer-mobile {
+    display: block;
+  }
+
+  .image-footer-desktop {
+    display: none;
+  }
 }
