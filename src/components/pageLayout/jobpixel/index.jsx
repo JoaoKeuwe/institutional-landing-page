@@ -1,6 +1,6 @@
 import GenericLayout from "../genericLayout";
 import jobpixel from '../../../assets/images/jobpixel.svg'
-import mockup2 from '../../../assets/images/Mockup2.svg'
+import mockup2 from '../../../assets/images/mockup2.png'
 
 export const JobPixel = () => {
     return (

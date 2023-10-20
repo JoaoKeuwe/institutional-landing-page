@@ -1,6 +1,6 @@
 import GenericLayout from "../genericLayout";
 import vendoo from '../../../assets/images/vendoo.svg';
-import mockup from '../../../assets/images/Mockup.svg';
+import mockup from '../../../assets/images/mockup.png';
 
 
 const VendooPage = () => {

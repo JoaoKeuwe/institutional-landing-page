@@ -1,6 +1,6 @@
 import GenericLayout from '../genericLayout'
 import descola from '../../../assets/images/descola.svg'
-import mockup from '../../../assets/images/mockup3.svg'
+import mockup from '../../../assets/images/mockup3.png'
 
 const Descola = () => {
     return (
